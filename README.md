@@ -35,43 +35,32 @@ OpenWrt LuCI 图形界面配置应用，用于管理 [ECH Workers](https://githu
 
 ## 📦 安装方法
 
-### 下载预编译包
+### 下载
 
-从 [Releases](../../releases) 页面下载最新版本：
+从 [Releases](../../releases) 页面下载 `luci-app-ech-workers_x.x.x_all.ipk`
 
-| 文件 | 说明 |
-|------|------|
-| `luci-app-ech-workers_x.x.x_all.ipk` | LuCI 界面包 |
-| `ech-workers-linux-arm64` | ARM64 架构二进制 |
-| `ech-workers-linux-armv7` | ARMv7 架构二进制 |
-| `ech-workers-linux-amd64` | x86_64 架构二进制 |
+> 💡 **提示**: 安装 ipk 后会**自动检测路由器架构并下载**对应的 `ech-workers` 二进制文件，无需手动安装！
 
 ### 安装步骤
 
 1. **上传到路由器**
 
    ```bash
-   # 替换 <arch> 为你的路由器架构 (arm64/armv7/amd64)
    scp luci-app-ech-workers_*.ipk root@192.168.1.1:/tmp/
-   scp ech-workers-linux-<arch> root@192.168.1.1:/tmp/
    ```
 
 2. **SSH 登录安装**
 
    ```bash
    ssh root@192.168.1.1
-   
-   # 安装二进制文件
-   mv /tmp/ech-workers-linux-* /usr/bin/ech-workers
-   chmod +x /usr/bin/ech-workers
-   
-   # 安装 LuCI 应用
    opkg install /tmp/luci-app-ech-workers_*.ipk
    ```
 
 3. **访问界面**
 
    打开浏览器访问路由器管理页面，导航到 **服务 → Tuple ECH Worker**
+
+> ⚠️ **注意**: 自动下载需要路由器能访问 GitHub。如果下载失败，可手动下载对应架构的二进制文件到 `/usr/bin/ech-workers`
 
 ---
 
@@ -90,7 +79,7 @@ OpenWrt LuCI 图形界面配置应用，用于管理 [ECH Workers](https://githu
 
 | 配置项 | 说明 | 默认值 |
 |--------|------|--------|
-| **优选 IP/域名** | Cloudflare CDN 优选地址 | `joeyblog.net` |
+| **优选 IP/域名** | Cloudflare CDN 优选地址 | `cf.090227.xyz` |
 | **DoH 服务器** | DNS over HTTPS 服务器 | `dns.alidns.com/dns-query` |
 | **ECH 域名** | 用于获取 ECH 配置 | `cloudflare-ech.com` |
 

